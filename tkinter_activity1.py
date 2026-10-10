@@ -1,0 +1,10 @@
+from tkinter import *
+root=Tk()
+root.config(bg="darkred")
+root.title("tkinter demo")
+root.geometry("500x300")
+label1=Label(root,text="Hello world",font=("Segoe Print",36,"bold","italic"),fg="white",bg="darkred",width=300)
+label1.pack()
+label2=Label(root,text="My name is Yuktha",font=("Yu Gothic Light",28,"italic"),fg="white",bg="darkred")
+label2.pack()
+root.mainloop()
